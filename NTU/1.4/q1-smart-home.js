@@ -1,5 +1,3 @@
-// Class Methods
-
 /*
     Task
     - Create a "BaseSignal" class to be inherited by "TvSignal", "AirconSignal" and "DoorSignal" class.
@@ -11,19 +9,33 @@
 // Task: Add code here
 
 class BaseSignal {
-  constructor() {}
+  constructor(type) {
+    if (this.constructor === BaseSignal) {
+      throw new Error("This class cannot be instantiated");
+    }
+    this._type = type;
+  }
+  send() {
+    console.log(`Sending ${this._type} signal`);
+  }
 }
 
 class TvSignal extends BaseSignal {
-  constructor() {}
-}
-
-class DoorSignal extends BaseSignal {
-  constructor() {}
+  constructor() {
+    super("tv");
+  }
 }
 
 class AirconSignal extends BaseSignal {
-  constructor() {}
+  constructor() {
+    super("aircon");
+  }
+}
+
+class DoorSignal extends BaseSignal {
+  constructor() {
+    super("doorsignal");
+  }
 }
 
 const tv = new TvSignal();
