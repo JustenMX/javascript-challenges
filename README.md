@@ -2,13 +2,13 @@
 
 ## A collection of JavaScript challenges from various platforms
 
-- [LeetCode]("leetcodes")
-- [CodeWars]("codewars")
-- [FreeCode]("freecode")
-- [CodeAcademy]("codeacademy")
-- [CoderByte]("coderbyte")
-- [HackerRank]("hackerrank")
-- [ProjectEuler]("project-euler")
+- [LeetCode]("/leetcodes")
+- [CodeWars]("/codewars")
+- [FreeCode]("/freecode")
+- [CodeAcademy]("/codeacademy")
+- [CoderByte]("/coderbyte")
+- [HackerRank]("/hackerrank")
+- [ProjectEuler]("/project-euler")
 
 ## Collection of Code challenges from academic programs
 
